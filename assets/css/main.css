@@ -1989,18 +1989,27 @@ input, select, textarea {
 	.item {
 		box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
 		margin-bottom: 40px;
+		cursor: pointer;
+		transition: .3s ease-in-out;
+		box-shadow: 7px 7px 12px 1px rgba(0, 0, 0, .6);
+	}
+	
+	.item:hover {
+		transform: scale(1.04);
 	}
 
 		.item header {
-			background: #fff;
+			background: #5482B7;
 			margin: 0;
 			padding: 1em 0 1em 0;
 			font-size: 0.8em;
 		}
-
-			.item header h3 {
-				font-size: 1em;
-			}
+		
+		.item header h3 {
+			color: white;
+			font-size: 1em;
+			text-shadow: 2px 1px 3px black;
+		}
 
 /* Icons */
 
@@ -2758,4 +2767,5 @@ input, select, textarea {
 				from {top: -300px; opacity: 0}
 				to {top: 0; opacity: 1}
 				}
+
 	
