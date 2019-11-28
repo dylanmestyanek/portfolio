@@ -1,1 +1,1 @@
-I am doing stuff
+This is my portfolio in progress, whatever you do, do not look at it just yet.
