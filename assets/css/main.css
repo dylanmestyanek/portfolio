@@ -2266,7 +2266,7 @@ input, select, textarea {
 
 			#main > section.one {
 				background-color: #81918E;
-				background-image: url("../../images/banner.jpg");
+				background-image: url("../../images/home-bg.svg");
 			}
 
 			#main > section.two {
@@ -2687,8 +2687,8 @@ input, select, textarea {
 				.modal-header {
 					padding: 2px 16px;
 					background-color: #465881;
-					border-top-left-radius: 4px;
-					border-top-right-radius: 4px;
+					border-top-left-radius: 3px;
+					border-top-right-radius: 3px;
 				}
 
 				.modal-header h2 {
@@ -2732,14 +2732,10 @@ input, select, textarea {
 					display: flex;
 				}
 				
-				.proj-img {
+				.project-img {
 					width: 100%;
 				}
 	
-				.proj-img img {
-					width: 100%;
-				}
-				
 				.project-sub-info {
 					width: 90%;
 					margin: 0 auto;
