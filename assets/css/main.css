@@ -2691,7 +2691,7 @@ input, select, textarea {
 				}
 
 				.modal-header h2 {
-				color: rgba(250, 250, 250, .8);
+				color: rgba(250, 250, 250, 1);
 				}
 				
 				/* Modal Body */
@@ -2757,6 +2757,30 @@ input, select, textarea {
 				@keyframes animatetop {
 				from {top: -300px; opacity: 0}
 				to {top: 0; opacity: 1}
+				}
+
+				.modal-one div.modal-header {
+					background: rgb(200, 120, 100, 1);
+				}
+
+				.modal-two div.modal-header {
+					background: rgba(30, 120, 180, 1);
+				}
+
+				.modal-three div.modal-header {
+					background: rgb(38, 170, 120, 1);
+				}
+
+				.modal-four div.modal-header {
+					background: rgb(38, 80, 120, 1);
+				}
+
+				.modal-five div.modal-header {
+					background: rgb(38, 105, 94);
+				}
+
+				.modal-six div.modal-header {
+					background: rgb(38, 140, 200, 1);
 				}
 
 
