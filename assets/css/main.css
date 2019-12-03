@@ -2759,29 +2759,64 @@ input, select, textarea {
 				to {top: 0; opacity: 1}
 				}
 
-				.modal-one div.modal-header {
+				/* Modal One */
+				.modal-one div.modal-header,
+				.modal-one div.button-container button {
 					background: rgb(200, 120, 100, 1);
 				}
 
-				.modal-two div.modal-header {
+				.modal-one div.button-container button:hover {
+					background: rgb(240, 120, 80, 1);
+				}
+
+				/* Modal Two */
+				.modal-two div.modal-header,
+				.modal-two div.button-container button {
 					background: rgba(30, 120, 180, 1);
 				}
 
-				.modal-three div.modal-header {
+				.modal-two div.button-container button:hover {
+					background: rgb(30, 100, 200, 1);
+				}
+
+				/* Modal Three */
+				.modal-three div.modal-header,
+				.modal-three div.button-container button {
 					background: rgb(38, 170, 120, 1);
 				}
 
-				.modal-four div.modal-header {
+				.modal-three div.button-container button:hover {
+					background: rgb(38, 140, 100, 1);
+				}
+
+				/* Modal Four */
+				.modal-four div.modal-header,
+				.modal-four div.button-container button {
 					background: rgb(38, 80, 120, 1);
 				}
 
-				.modal-five div.modal-header {
+				.modal-four div.button-container button:hover {
+					background: rgb(38, 90, 210, 1);
+				}
+
+				/* Modal Five */
+				.modal-five div.modal-header,
+				.modal-five div.button-container button {
 					background: rgb(38, 105, 94);
 				}
 
-				.modal-six div.modal-header {
+				.modal-five div.button-container button:hover {
+					background: rgb(38, 150, 120, 1);
+				}
+
+				/* Modal Six */
+				.modal-six div.modal-header,
+				.modal-six div.button-container button {
 					background: rgb(38, 140, 200, 1);
 				}
 
+				.modal-six div.button-container button:hover {
+					background: rgb(38, 100, 150, 1);
+				}
 
 	
