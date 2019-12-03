@@ -114,6 +114,9 @@ input, select, textarea {
 		font-weight: 300;
 		color: #666;
 		line-height: 1.5em;
+		/* font-family: 'Roboto' */
+		font-family: 'Nunito', 'sans-serif';
+
 	}
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -164,6 +167,7 @@ input, select, textarea {
 	}
 
 	a {
+		font-family: 'Montserrat', 'sans-serif';
 		text-decoration: none;
 		color: inherit;
 		-moz-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
@@ -202,6 +206,10 @@ input, select, textarea {
 
 	br.clear {
 		clear: both;
+	}
+
+	p, li, a {
+		font-family: 'Nunito', 'sans-serif';
 	}
 
 /* Container */
@@ -2647,6 +2655,8 @@ input, select, textarea {
 					margin-top: 0;
 				}
 
+				
+	
 	}
 
 	/* MODALS STYLING */
@@ -2709,7 +2719,7 @@ input, select, textarea {
 				border-radius: 4px;
 				margin: auto;
 				padding: 0;
-				width: 80%;
+				width: 90%;
 				box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
 				animation-name: animatetop;
 				animation-duration: 0.4s;
@@ -2732,11 +2742,18 @@ input, select, textarea {
 				}
 				
 				.project-img {
-					width: 100%;
+					width: 50%;
+				}
+
+				.project-text {
+					margin: 0px 0px 0px 15px;
+					display: flex;
+					flex-direction: column;
+					justify-content: space-evenly;
 				}
 	
 				.project-sub-info {
-					width: 90%;
+					width: 96%;
 					margin: 0 auto;
 					padding-bottom: 30px;
 				}
@@ -2746,11 +2763,13 @@ input, select, textarea {
 					display: flex;
 					justify-content: space-evenly;
 					padding-bottom: 30px;
+					
 				}
-	
+				
 				.button-container button {
 					width: 200px;
 					padding: 10px 0;
+					font-family: 'Nunito', 'sans-serif';
 				}
 	
 				/* Add Animation */
@@ -2819,4 +2838,41 @@ input, select, textarea {
 					background: rgb(38, 100, 150, 1);
 				}
 
-	
+				@media screen and (max-width: 900px) {
+
+					.modal {
+						padding: 5%;
+					}
+
+					.modal-content {
+						width: 100%;
+					}
+
+					.project-info {
+						padding: 0;
+					}
+
+					.project-img {
+						display: none;
+					}
+
+					.project-sub-info {
+						width: 90%;
+					}
+
+					.project-text {
+						margin: 0 auto;
+						width: 90%;
+					}
+
+					.button-container {
+						display: flex;
+						flex-direction: column;
+						align-items: center;
+						justify-content: center;
+					}
+
+					.button-container button {
+						margin: 5px 0;
+					}
+				}
