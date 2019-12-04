@@ -2065,7 +2065,7 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #1B2A49 url("images/overlay.png");
+		background: #1B2A49;
 		box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.1);
 		color: #fff;
 		height: 100%;
@@ -2203,7 +2203,7 @@ input, select, textarea {
 	#footer {
 		margin-left: 375px;
 		text-align: center;
-		background-image: linear-gradient(rgba(30, 140, 200, 0.3), #fff); 
+		background-image: linear-gradient(#fff, rgba(57, 155, 207, 0.3)); 
 		padding: 3em 0 4em 0;
 		font-size: 0.8em;
 	}
@@ -2286,6 +2286,10 @@ input, select, textarea {
 
 			#main > section.four {
 				background-image: linear-gradient(rgba(30, 140, 200, 0.1), rgba(30, 140, 200, 0.3));
+			}
+
+			#main > section.five {
+				background-image: linear-gradient(rgba(30, 140, 200, 0.3), #fff);
 			}
 
 /* Wide */
@@ -2465,7 +2469,7 @@ input, select, textarea {
 				width: 275px;
 				z-index: 10002;
 				width: 275px;
-				background: #222729 url("images/overlay.png");
+				background: #1B2A49;
 				box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.125);
 			}
 
@@ -2874,5 +2878,39 @@ input, select, textarea {
 
 					.button-container button {
 						margin: 5px 0;
+					}
+				}
+
+				.skill-icons-container {
+					width: 100%;
+					display: flex;
+					flex-wrap: wrap;
+					justify-content: center;
+				}
+
+				.skill-icon {
+					display: flex;
+					flex-direction: column;
+					justify-content: center;
+					align-items: center;
+					width: 20%;
+					padding: 0;
+					margin: 10px;
+				}
+				
+				.skill-icon i {
+					font-size: 4rem;
+					text-shadow: 2px 2px 3px rgba(0, 0, 0, .4);
+				}
+				
+				.skill-icon p {
+					color: black;
+					text-shadow: 2px 2px 3px rgba(0, 0, 0, .4);
+				}
+
+				@media screen and (max-width: 900px) {
+
+					.skill-icon i {
+						font-size: 2rem;
 					}
 				}
