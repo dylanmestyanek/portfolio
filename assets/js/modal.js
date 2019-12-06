@@ -45,9 +45,8 @@ projectTitlesText.forEach(title => title.addEventListener('click', e => {
 // When the user clicks on <span> (x), close the modal
 closeButtons.forEach(button => button.addEventListener('click', e => {
   const index = +e.target.dataset.span;
-
+console.log(e.target)
   modals[index].style.display = "none";
   document.querySelector("#main").style.filter = "blur(0px)";
 }))
 
-// When the user clicks anywhere outside of the modal, close it
