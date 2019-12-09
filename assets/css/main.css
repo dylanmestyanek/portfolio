@@ -2908,8 +2908,6 @@ input, select, textarea {
 				}
 				
 				.skill-icon p {
-					color: black;
-					text-shadow: 2px 2px 3px rgba(0, 0, 0, .4);
 				}
 
 				@media screen and (max-width: 900px) {
