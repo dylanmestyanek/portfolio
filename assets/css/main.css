@@ -107,7 +107,7 @@ input, select, textarea {
 		font-size: 15pt;
 		font-weight: 300;
 		line-height: 1.75em;
-		color: #888;
+		color: #888 !important;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -2911,9 +2911,18 @@ input, select, textarea {
 					text-shadow: 2px 2px 3px rgba(0, 0, 0, .4);
 				}
 				
-				.skill-icon p {
+				#about p {
+					padding-top: 30px;
 				}
-
+				
+				#skills div.skill-icons-container {
+					padding-top: 30px;
+				}
+				
+				.banner-img {
+					width: 100%;
+				}
+				
 				@media screen and (max-width: 900px) {
 
 					.skill-icon i {
@@ -2928,16 +2937,9 @@ input, select, textarea {
 					.row > .col-4 {
 						padding: 0;
 					}
-				}
 
-				#about p {
-					padding-top: 30px;
+					.skill-icon i {
+						font-size: 4.2rem;
+					}
 				}
-
-				#skills div.skill-icons-container {
-					padding-top: 30px;
-				}
-
-				.banner-img {
-					width: 100%;
-				}
+				
