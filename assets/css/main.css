@@ -103,8 +103,8 @@ input, select, textarea {
 		}
 
 	input, textarea, select {
-		font-family: 'Source Sans Pro', sans-serif;
-		font-size: 19pt;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 15pt;
 		font-weight: 300;
 		line-height: 1.75em;
 		color: #888;
@@ -115,7 +115,7 @@ input, select, textarea {
 		color: #666;
 		line-height: 1.5em;
 		/* font-family: 'Roboto' */
-		font-family: 'Nunito', 'sans-serif';
+		font-family: 'Open Sans', 'sans-serif';
 
 	}
 
@@ -209,7 +209,7 @@ input, select, textarea {
 	}
 
 	p, li, a {
-		font-family: 'Nunito', 'sans-serif';
+		font-family: 'Roboto', 'sans-serif';
 	}
 
 /* Container */
@@ -2758,12 +2758,16 @@ input, select, textarea {
 					display: flex;
 					flex-direction: column;
 					justify-content: space-evenly;
+					line-height: 1.4;
+					/* text-align: justify; */
 				}
 	
 				.project-sub-info {
 					width: 96%;
 					margin: 0 auto;
 					padding-bottom: 30px;
+					line-height: 1.4;
+					/* text-align: justify; */
 				}
 
 				.button-container {
@@ -2777,7 +2781,7 @@ input, select, textarea {
 				.button-container button {
 					width: 200px;
 					padding: 10px 0;
-					font-family: 'Nunito', 'sans-serif';
+					font-family: 'Open Sans', 'sans-serif';
 				}
 	
 				/* Add Animation */
