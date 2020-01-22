@@ -2943,3 +2943,10 @@ input, select, textarea {
 					}
 				}
 				
+				@media screen and (max-width: 850px) {
+					#main > section.one {
+						background-image: url("../../images/mobile-home-bg.svg");
+						height: 100vh;
+						min-height: 600px;
+					}
+				}
