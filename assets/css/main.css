@@ -2943,10 +2943,26 @@ input, select, textarea {
 					}
 				}
 				
-				@media screen and (max-width: 850px) {
+				@media screen and (max-width: 961px) {
 					#main > section.one {
 						background-image: url("../../images/mobile-home-bg.svg");
 						height: 100vh;
 						min-height: 600px;
+					}
+
+					.alt {
+						padding-top: 5%;
+					}
+				}
+
+				@media screen and (max-width: 1175px) {
+					.alt {
+						font-size: 2.2rem;
+					}
+				}
+
+				@media screen and (max-width: 700px) {
+					.alt {
+						font-size: 2rem;
 					}
 				}
