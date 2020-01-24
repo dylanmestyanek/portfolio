@@ -2803,7 +2803,7 @@ input, select, textarea {
 				/* Modal Two */
 				.modal-two div.modal-header,
 				.modal-two div.button-container button {
-					background: rgba(30, 120, 180, 1);
+					background: rgba(50, 150, 140, 1);
 				}
 
 				.modal-two div.button-container button:hover {
