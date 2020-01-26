@@ -2003,14 +2003,13 @@ input, select, textarea {
 
 		.item header {
 			background: #5482B7;
-			margin: 0;
-			padding: 1em 0 1em 0;
 			font-size: 0.8em;
+			padding: 2% 5%;
 		}
 		
 		.item header h3 {
 			color: white;
-			font-size: 1em;
+			font-size: 1.3rem;
 			text-shadow: 2px 1px 3px black;
 		}
 
@@ -2923,6 +2922,18 @@ input, select, textarea {
 					width: 100%;
 				}
 				
+				.projects {
+					width: 100%;
+					display: flex;
+					flex-wrap: wrap;
+					justify-content: center;					
+				}
+
+				.projects article {
+					width: 30%;
+					margin: 25px 15px;
+				}
+
 				@media screen and (max-width: 900px) {
 
 					.skill-icon i {
@@ -2930,7 +2941,6 @@ input, select, textarea {
 					}
 
 					.item {
-						width: 80%;
 						margin: 30px auto;
 					}
 
