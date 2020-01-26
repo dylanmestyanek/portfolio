@@ -2001,7 +2001,7 @@ input, select, textarea {
 	}
 	
 	.item:hover {
-		transform: scale(1.04);
+		transform: scale(1.02);
 	}
 
 		.item header {
@@ -2722,7 +2722,7 @@ input, select, textarea {
 				border-radius: 4px;
 				margin: auto;
 				padding: 0;
-				width: 90%;
+				width: 60%;
 				box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
 				animation-name: animatetop;
 				animation-duration: 0.4s;
@@ -2774,8 +2774,8 @@ input, select, textarea {
 				}
 				
 				.button-container button {
-					width: 200px;
-					padding: 10px 0;
+
+					padding: 10px 20px;
 					font-family: 'Open Sans', 'sans-serif';
 				}
 	
@@ -2802,7 +2802,7 @@ input, select, textarea {
 				}
 
 				.modal-two div.button-container button:hover {
-					background: rgb(30, 100, 200, 1);
+					background: rgb(50, 120, 100, 1);
 				}
 
 				/* Modal Three */
