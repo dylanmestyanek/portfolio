@@ -2780,6 +2780,11 @@ input, select, textarea {
 					font-family: 'Open Sans', 'sans-serif';
 					font-size: 1rem;
 				}
+
+				a.disabled-project button {
+					background: grey !important;
+					cursor: default;
+				}
 	
 				/* Add Animation */
 				@keyframes animatetop {
@@ -2925,10 +2930,6 @@ input, select, textarea {
 					display: flex;
 					flex-wrap: wrap;
 					justify-content: center;					
-				}
-
-				.projects article {
-			
 				}
 
 				@media screen and (max-width: 900px) {
