@@ -1,4 +1,4 @@
-This is my portfolio displaying my six current projects:
+This is my portfolio displaying my six current favorite projects:
 1. Macro Calculator
 2. Javascript Timer
 3. Spotifier Song Suggester
