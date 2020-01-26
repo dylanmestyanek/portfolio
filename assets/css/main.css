@@ -2774,7 +2774,7 @@ input, select, textarea {
 				}
 				
 				.button-container button {
-
+					outline: none;
 					padding: 10px 20px;
 					font-family: 'Open Sans', 'sans-serif';
 				}
