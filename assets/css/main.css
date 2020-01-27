@@ -3014,5 +3014,8 @@ input, select, textarea {
 				}
 
 				@media screen and (max-width: 700px) {
-				
+					.view-my-work {
+						padding: 10px 40px;
+						font-size: 1.5rem;
+					}
 				}
