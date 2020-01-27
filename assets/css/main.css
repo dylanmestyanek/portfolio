@@ -2962,6 +2962,10 @@ input, select, textarea {
 					justify-content: center;					
 				}
 
+				.intro-break-mobile {
+					display: none;
+				}
+
 				@media screen and (max-width: 900px) {
 
 					.skill-icon i {
@@ -2974,6 +2978,14 @@ input, select, textarea {
 
 					.skill-icon i {
 						font-size: 4.2rem;
+					}
+
+					.intro-break-mobile {
+						display: block;
+					}
+
+					.intro-break { 
+						display: none;
 					}
 				}
 				
@@ -2991,12 +3003,13 @@ input, select, textarea {
 
 				@media screen and (max-width: 1175px) {
 					.alt {
-						font-size: 2.2rem;
+						font-size: 2rem;
 					}
 				}
 
 				@media screen and (max-width: 700px) {
 					.alt {
-						font-size: 2rem;
+						margin-top: 10%;
+						font-size: 1.8rem;
 					}
 				}
