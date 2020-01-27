@@ -2852,6 +2852,12 @@ input, select, textarea {
 					background: rgb(38, 100, 150, 1);
 				}
 
+				@media screen and (max-width: 1015px) {
+					.item {
+						width: 40%;
+					}
+				}
+
 				@media screen and (max-width: 900px) {
 
 					.modal {
@@ -2888,6 +2894,30 @@ input, select, textarea {
 
 					.button-container button {
 						margin: 5px 0;
+					}
+					
+					.projects {
+						flex-direction: column;
+						justify-content: center;
+						align-items: center;
+					}
+
+					.item {
+						width: 80%;
+					}
+
+					.item h3 {
+						font-size: 1.6rem;
+					}
+
+					.modal h2 {
+						font-size: 1.6rem;
+						text-align: center;
+					}
+
+					.close {
+						padding-top: 3%;
+						margin-right: -2%;
 					}
 				}
 
