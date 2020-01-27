@@ -135,6 +135,7 @@ input, select, textarea {
 
 		h2.alt {
 			color: #888;
+			margin-top: -5%;
 		}
 
 			h2.alt strong {
@@ -2987,6 +2988,10 @@ input, select, textarea {
 					.intro-break { 
 						display: none;
 					}
+
+					.alt {
+						margin-top: 8% !important;
+					}
 				}
 				
 				@media screen and (max-width: 961px) {
@@ -3003,13 +3008,11 @@ input, select, textarea {
 
 				@media screen and (max-width: 1175px) {
 					.alt {
-						font-size: 2rem;
+						font-size: 2.4rem;
+						margin-top: 2% !important;
 					}
 				}
 
 				@media screen and (max-width: 700px) {
-					.alt {
-						margin-top: 10%;
-						font-size: 1.8rem;
-					}
+				
 				}
