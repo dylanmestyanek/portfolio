@@ -2670,7 +2670,7 @@ input, select, textarea {
 				width: 100%; /* Full width */
 				height: 100%; /* Full height */
 				overflow: auto;
-				padding: 5% 0 0 20%; /* Enable scroll if needed */
+				padding: 5% 2% 0 20%; /* Enable scroll if needed */
 				background-color: rgb(0,0,0); /* Fallback color */
 				background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 				}
@@ -2722,7 +2722,7 @@ input, select, textarea {
 				border-radius: 4px;
 				margin: auto;
 				padding: 0;
-				width: 65%;
+				width: 100%;
 				box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
 				animation-name: animatetop;
 				animation-duration: 0.4s;
@@ -2738,39 +2738,49 @@ input, select, textarea {
 					margin: 5px 0;
 				}
 
+				.modal-content-wrapper {
+					display: flex;
+				}
+
 				.project-info {
 					width: 100%;
 					padding: 20px;
 					display: flex;
+					flex-direction: column;
+				}
+
+				.sauti-link {
+					color: rgba(0, 0, 0, .8) !important;
+				}
+
+				.sauti-link:hover {
+					text-decoration: underline !important;
 				}
 				
 				.project-img {
-					width: 50%;
+					width: 100%;
+					border: 1px solid rgba(0, 0, 0, .4);
 				}
 
-				.project-text {
-					margin: 0px 0px 0px 15px;
+				.project-sub-info {
 					display: flex;
 					flex-direction: column;
 					justify-content: space-evenly;
-					line-height: 1.4;
-					/* text-align: justify; */
-				}
-	
-				.project-sub-info {
 					width: 96%;
 					margin: 0 auto;
-					padding-bottom: 30px;
+					padding-right: 1.5%;
 					line-height: 1.4;
-					/* text-align: justify; */
+				}
+
+				.project-sub-info p {
+					font-size: 1.05rem;
 				}
 
 				.button-container {
 					width: 100%;
 					display: flex;
 					justify-content: space-evenly;
-					padding-bottom: 30px;
-					
+					padding-top: 20px;
 				}
 				
 				.button-container button {
