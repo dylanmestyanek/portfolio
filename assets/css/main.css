@@ -2146,7 +2146,7 @@ input, select, textarea {
 			top: 0;
 		}
 
-	#nav ul {
+	div ul {
 		list-style: none;
 		padding-left: 0;
 		margin-bottom: 0;
