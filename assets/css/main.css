@@ -2999,8 +2999,23 @@ input, select, textarea {
 					}
 
 					.alt {
+						font-size: 2rem !important;
 						margin-top: 8% !important;
 					}
+
+					.intro-button-container {
+						display: flex;
+						flex-direction: column;
+						height: 100px;
+						justify-content: space-evenly;
+						align-items: center;
+					}
+
+					.intro-button-container a {
+						width: 50%;
+						padding: 0 10px;
+					}
+
 				}
 				
 				@media screen and (max-width: 961px) {
@@ -3035,4 +3050,6 @@ input, select, textarea {
 						padding: 10px 40px;
 						font-size: 1.5rem;
 					}
+
+					
 				}
