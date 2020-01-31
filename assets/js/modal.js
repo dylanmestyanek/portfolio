@@ -18,6 +18,7 @@ projectImages.forEach(btn => btn.addEventListener('click', e => {
     const index = e.target.dataset.image;
 
     modals[index].style.display = "block";
+    document.querySelector("#headerToggle").style.display = "none";
 
     document.querySelector("#main").style.filter = "blur(2px)";
 }))
@@ -28,6 +29,7 @@ projectTitles.forEach(title => title.addEventListener('click', e => {
     const index = e.target.dataset.image;
 
     modals[index].style.display = "block";
+    document.querySelector("#headerToggle").style.display = "none";
 
     document.querySelector("#main").style.filter = "blur(2px)";
 }))
@@ -38,6 +40,7 @@ projectTitlesText.forEach(title => title.addEventListener('click', e => {
     const index = e.target.dataset.image;
 
     modals[index].style.display = "block";
+    document.querySelector("#headerToggle").style.display = "none";
 
     document.querySelector("#main").style.filter = "blur(2px)";
 }))
@@ -47,6 +50,8 @@ closeButtons.forEach(button => button.addEventListener('click', e => {
   const index = +e.target.dataset.span;
   
   modals[index].style.display = "none";
+  document.querySelector("#headerToggle").style.display = "block";
+
   document.querySelector("#main").style.filter = "blur(0px)";
 }))
 
