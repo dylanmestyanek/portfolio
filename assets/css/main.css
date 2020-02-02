@@ -2746,7 +2746,7 @@ input, select, textarea {
 
 				.modal-info-list {
 					list-style: circle inside;
-					text-indent: -1.4rem;
+					text-indent: -1rem;
 					padding-left: 1.5rem;
 					font-size: 1rem;
 					margin-top: -15px;
