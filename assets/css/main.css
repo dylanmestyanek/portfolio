@@ -2744,6 +2744,13 @@ input, select, textarea {
 					font-weight: 700;
 				}
 
+				.modal-info-list {
+					list-style: circle inside;
+					font-size: 1rem;
+					text-indent: 30px;
+					margin-top: -3%;
+				}
+
 				.modal-content-wrapper {
 					display: flex;
 				}
