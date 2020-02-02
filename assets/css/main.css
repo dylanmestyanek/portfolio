@@ -2752,7 +2752,7 @@ input, select, textarea {
 					margin-top: -15px;
 				}
 
-				.intro-br, .mobile-br { 
+				.intro-br { 
 					display: none;
 				}
 
@@ -3080,12 +3080,6 @@ input, select, textarea {
 
 				@media screen and (max-width: 1650px) {
 					.intro-br {
-						display: block;
-					}
-				}
-
-				@media screen and (max-width: 500px) {
-					.mobile-br {
 						display: block;
 					}
 				}
