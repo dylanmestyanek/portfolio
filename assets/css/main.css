@@ -2749,8 +2749,11 @@ input, select, textarea {
 					text-indent: -1.4rem;
 					padding-left: 1.5rem;
 					font-size: 1rem;
-					/* text-indent: 30px; */
 					margin-top: -15px;
+				}
+
+				.intro-br, .mobile-br { 
+					display: none;
 				}
 
 				@media screen and (max-width: 1700px) { 
@@ -3073,4 +3076,16 @@ input, select, textarea {
 					}
 
 					
+				}
+
+				@media screen and (max-width: 1650px) {
+					.intro-br {
+						display: block;
+					}
+				}
+
+				@media screen and (max-width: 500px) {
+					.mobile-br {
+						display: block;
+					}
 				}
