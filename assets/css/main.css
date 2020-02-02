@@ -3083,3 +3083,9 @@ input, select, textarea {
 						display: block;
 					}
 				}
+
+				@media screen and (max-width: 500px) {
+					.modal-content em {
+						font-size: .8rem;
+					}
+				}
