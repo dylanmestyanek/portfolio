@@ -2746,9 +2746,17 @@ input, select, textarea {
 
 				.modal-info-list {
 					list-style: circle inside;
+					text-indent: -1.4rem;
+					padding-left: 1.5rem;
 					font-size: 1rem;
-					text-indent: 30px;
-					margin-top: -3%;
+					/* text-indent: 30px; */
+					margin-top: -15px;
+				}
+
+				@media screen and (max-width: 1700px) { 
+					.modal-info-list {
+						margin-top: 0;
+					}
 				}
 
 				.modal-content-wrapper {
