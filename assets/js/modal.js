@@ -16,16 +16,16 @@ var closeButtons = document.querySelectorAll(".close");
 // When the user clicks on the image, open the modal
 projectImages.forEach(btn => btn.addEventListener('click', e => {
     const index = e.target.dataset.image;
-
+    
     modals[index].style.display = "block";
     document.querySelector("#headerToggle").style.display = "none";
-
+    
     document.querySelector("#main").style.filter = "blur(2px)";
 }))
 
 // When the user clicks on the title, open the modal
 projectTitles.forEach(title => title.addEventListener('click', e => {
-
+    console.log("shot")
     const index = e.target.dataset.image;
 
     modals[index].style.display = "block";
