@@ -25,7 +25,6 @@ projectImages.forEach(btn => btn.addEventListener('click', e => {
 
 // When the user clicks on the title, open the modal
 projectTitles.forEach(title => title.addEventListener('click', e => {
-    console.log("shot")
     const index = e.target.dataset.image;
 
     modals[index].style.display = "block";
